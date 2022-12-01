@@ -74,6 +74,8 @@ const styles = StyleSheet.create({
   },
   result: {
     flex: 2,
+    flexDirection: 'column',
+    // justifyContent: 'flex-end',
     backgroundColor: 'red',
   },
   calculation: {
@@ -92,12 +94,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'black',
   },
-  resultText:{
+  resultText: {
     fontSize: 36,
-    alignSelf:'flex-end',
+    alignSelf: 'flex-end',
   },
-  calculationText:{
-    fontSize:36,
-    alignSelf:'flex-end'
-  }
+  calculationText: {
+    fontSize: 36,
+    alignSelf: 'flex-end',
+  },
 });

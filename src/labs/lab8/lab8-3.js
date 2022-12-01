@@ -7,7 +7,7 @@ export default class App extends Component {
     this.state = {};
   }
   render() {
-    return(
+    return (
       <View style={styles.container}>
         <View style={styles.result}></View>
         <View style={styles.calculation}></View>
